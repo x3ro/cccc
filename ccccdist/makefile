@@ -8,7 +8,7 @@
 
 .PHONY : pccts cccc test install
 
-all : pccts cccc test install
+all : pccts cccc test
 
 pccts :
 	cd pccts ; make
